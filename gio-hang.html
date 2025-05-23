@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home
+    </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+ <header>
+    <h1>🌿 Giỏ hàng</h1>
+    <a href="gio-hang.html"  title="Giỏ hàng">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-count">0</span>
+    </a>
+  </header>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logotest.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="trang-chu.html">Trang Chủ</a></li>
+                
+                
+                <li><a href="dang-nhap.html">Đăng nhập</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- cart page -->
+     <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>LOẠI BỎ</td>
+                    <td>HÌNH ẢNH</td>
+                    <td>SẢN PHẢM</td>
+                    <td>GIÁ BÁN</td>
+                    <td>SỐ LƯỢNG</td>
+                    <td>TỔNG THU</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg"></td>
+                    <td>ten san pham</td>
+                    <td>gia ban</td>
+                    <td><input type="number" value="1"></td>
+                    <td>gia theo so luong</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg"></td>
+                    <td>ten san pham</td>
+                    <td>gia ban</td>
+                    <td><input type="number" value="1"></td>
+                    <td>gia theo so luong</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg"></td>
+                    <td>ten san pham</td>
+                    <td>gia ban</td>
+                    <td><input type="number" value="1"></td>
+                    <td>gia theo so luong</td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+
+    <!-- cart add -->
+     <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Tổng giỏ hàng</h3>
+            <table>
+                <tr>
+                    <td>Tổng thu</td>
+                    <td>gia tien</td>
+                </tr>
+                <tr>
+                    <td>Phí ship</td>
+                    <td>miễn phí</td>
+                </tr>
+                <tr>
+                    <td><strong>Tổng</strong></td>
+                    <td><strong>giá tiền</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Tiến hành kiểm tra</button>
+        </div>
+     </section>
